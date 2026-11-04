@@ -1,7 +1,7 @@
 ### 1. Pre Requisitos
 
 - .NET 8 SDK
-- The app under test running on `http://localhost:5173`:
+- O app test rodando on `http://localhost:5173`:
   [mock-marketplace-iafirst](https://github.com/Bravodin/mock-marketplace-iafirst),
   um e-commerce criado para laboratório de teste.
 
