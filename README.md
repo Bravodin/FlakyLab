@@ -1,3 +1,17 @@
+### 1. Pre Requisitos
+
+- .NET 8 SDK
+- The app under test running on `http://localhost:5173`:
+  [mock-marketplace-iafirst](https://github.com/Bravodin/mock-marketplace-iafirst),
+  um e-commerce criado para laboratório de teste.
+
+```bash
+git clone https://github.com/Bravodin/mock-marketplace-iafirst.git
+cd mock-marketplace-iafirst
+npm install
+npm run dev
+```
+
 # 🧪 FlakyLab
 
 Um laboratório para entender, reproduzir e **corrigir testes flaky** (instáveis) em testes end-to-end com **Playwright + NUnit + .NET 8**.
